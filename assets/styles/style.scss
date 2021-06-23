@@ -17,6 +17,7 @@ File: scss
  *	8. Custom Templates
  */
 
+@use '~@angular/material' as mat;
 @import 'variable';
 
 
@@ -37,32 +38,32 @@ File: scss
 
 .danger {  
 	@import 'colors/red';
-	@include angular-material-theme($red-app-theme);
+	@include mat.all-component-themes($red-app-theme);
 }
 
 // Blue Theme
 
 .blue { 
 	@import 'colors/blue'; 
-  	@include angular-material-theme($blue-app-theme);
+  	@include mat.all-component-themes($blue-app-theme);
 }
 
 // Green Theme
 
 .green {  
 	@import 'colors/green';
-  	@include angular-material-theme($green-app-theme);
+  	@include mat.all-component-themes($green-app-theme);
 }
 
 // Dark Theme
 
 .dark { 
 	@import 'colors/dark'; 
-  	@include angular-material-theme($dark-theme); 
+  	@include mat.all-component-themes($dark-theme); 
 }
   
 
-$custom-typography: mat-typography-config( 
+$custom-typography: mat.define-typography-config( 
   $font-family: 'Poppins'
 ); 
-@include mat-core($custom-typography);
+@include mat.core($custom-typography);
