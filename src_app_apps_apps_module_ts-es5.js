@@ -39,7 +39,7 @@
 
   function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-  (self["webpackChunkmaterial"] = self["webpackChunkmaterial"] || []).push([["src_app_apps_apps_module_ts"], {
+  (self["webpackChunkmaterialpro"] = self["webpackChunkmaterialpro"] || []).push([["src_app_apps_apps_module_ts"], {
     /***/
     56675:
     /*!**********************************************************************!*\
@@ -1218,13 +1218,13 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
       /* harmony import */
 
 
@@ -1320,7 +1320,7 @@
 
       var _angular_animations__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
       /*! @angular/animations */
-      56083);
+      17238);
 
       var _c0 = function _c0(a0) {
         return {
@@ -8272,7 +8272,7 @@
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
       /* harmony import */
 
 
@@ -8284,7 +8284,7 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
@@ -10243,13 +10243,13 @@
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
       /* harmony import */
 
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
@@ -14176,202 +14176,6 @@
     },
 
     /***/
-    20945:
-    /*!********************************************************************!*\
-      !*** ./node_modules/rxjs/_esm2015/internal/observable/interval.js ***!
-      \********************************************************************/
-
-    /***/
-    function _(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony export */
-
-
-      __webpack_require__.d(__webpack_exports__, {
-        /* harmony export */
-        "interval": function interval() {
-          return (
-            /* binding */
-            _interval
-          );
-        }
-        /* harmony export */
-
-      });
-      /* harmony import */
-
-
-      var _Observable__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-      /*! ../Observable */
-      69165);
-      /* harmony import */
-
-
-      var _scheduler_async__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-      /*! ../scheduler/async */
-      33637);
-      /* harmony import */
-
-
-      var _util_isNumeric__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-      /*! ../util/isNumeric */
-      26561);
-
-      function _interval() {
-        var period = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
-        var scheduler = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : _scheduler_async__WEBPACK_IMPORTED_MODULE_0__.async;
-
-        if (!(0, _util_isNumeric__WEBPACK_IMPORTED_MODULE_1__.isNumeric)(period) || period < 0) {
-          period = 0;
-        }
-
-        if (!scheduler || typeof scheduler.schedule !== 'function') {
-          scheduler = _scheduler_async__WEBPACK_IMPORTED_MODULE_0__.async;
-        }
-
-        return new _Observable__WEBPACK_IMPORTED_MODULE_2__.Observable(function (subscriber) {
-          subscriber.add(scheduler.schedule(dispatch, period, {
-            subscriber: subscriber,
-            counter: 0,
-            period: period
-          }));
-          return subscriber;
-        });
-      }
-
-      function dispatch(state) {
-        var subscriber = state.subscriber,
-            counter = state.counter,
-            period = state.period;
-        subscriber.next(counter);
-        this.schedule({
-          subscriber: subscriber,
-          counter: counter + 1,
-          period: period
-        }, period);
-      } //# sourceMappingURL=interval.js.map
-
-      /***/
-
-    },
-
-    /***/
-    34150:
-    /*!****************************************************************!*\
-      !*** ./node_modules/rxjs/_esm2015/internal/operators/count.js ***!
-      \****************************************************************/
-
-    /***/
-    function _(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony export */
-
-
-      __webpack_require__.d(__webpack_exports__, {
-        /* harmony export */
-        "count": function count() {
-          return (
-            /* binding */
-            _count
-          );
-        }
-        /* harmony export */
-
-      });
-      /* harmony import */
-
-
-      var _Subscriber__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-      /*! ../Subscriber */
-      77393);
-
-      function _count(predicate) {
-        return function (source) {
-          return source.lift(new CountOperator(predicate, source));
-        };
-      }
-
-      var CountOperator = /*#__PURE__*/function () {
-        function CountOperator(predicate, source) {
-          _classCallCheck(this, CountOperator);
-
-          this.predicate = predicate;
-          this.source = source;
-        }
-
-        _createClass(CountOperator, [{
-          key: "call",
-          value: function call(subscriber, source) {
-            return source.subscribe(new CountSubscriber(subscriber, this.predicate, this.source));
-          }
-        }]);
-
-        return CountOperator;
-      }();
-
-      var CountSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_) {
-        _inherits(CountSubscriber, _Subscriber__WEBPACK_);
-
-        var _super2 = _createSuper(CountSubscriber);
-
-        function CountSubscriber(destination, predicate, source) {
-          var _this25;
-
-          _classCallCheck(this, CountSubscriber);
-
-          _this25 = _super2.call(this, destination);
-          _this25.predicate = predicate;
-          _this25.source = source;
-          _this25.count = 0;
-          _this25.index = 0;
-          return _this25;
-        }
-
-        _createClass(CountSubscriber, [{
-          key: "_next",
-          value: function _next(value) {
-            if (this.predicate) {
-              this._tryPredicate(value);
-            } else {
-              this.count++;
-            }
-          }
-        }, {
-          key: "_tryPredicate",
-          value: function _tryPredicate(value) {
-            var result;
-
-            try {
-              result = this.predicate(value, this.index++, this.source);
-            } catch (err) {
-              this.destination.error(err);
-              return;
-            }
-
-            if (result) {
-              this.count++;
-            }
-          }
-        }, {
-          key: "_complete",
-          value: function _complete() {
-            this.destination.next(this.count);
-            this.destination.complete();
-          }
-        }]);
-
-        return CountSubscriber;
-      }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__.Subscriber); //# sourceMappingURL=count.js.map
-
-      /***/
-
-    },
-
-    /***/
     99269:
     /*!*************************************!*\
       !*** ./src/app/apps/apps.module.ts ***!
@@ -14409,13 +14213,13 @@
 
       var _angular_router__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
       /*! @angular/router */
-      3984);
+      39895);
       /* harmony import */
 
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
       /* harmony import */
 
 
@@ -14433,7 +14237,7 @@
 
       var ngx_quill__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
       /*! ngx-quill */
-      61282);
+      36858);
       /* harmony import */
 
 
@@ -14445,7 +14249,7 @@
 
       var ngx_perfect_scrollbar__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
       /*! ngx-perfect-scrollbar */
-      5052);
+      99904);
       /* harmony import */
 
 
@@ -14503,7 +14307,7 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /*import { DragulaModule } from 'ng2-dragula/ng2-dragula';*/
 
 
@@ -14638,7 +14442,7 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
@@ -14650,19 +14454,19 @@
 
       var _angular_material_card__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/material/card */
-      7639);
+      93738);
       /* harmony import */
 
 
       var _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! @angular/material/sidenav */
-      4008);
+      94935);
       /* harmony import */
 
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
       /* harmony import */
 
 
@@ -14674,49 +14478,49 @@
 
       var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
       /*! @angular/material/toolbar */
-      73121);
+      12522);
       /* harmony import */
 
 
       var _angular_material_list__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
       /*! @angular/material/list */
-      45363);
+      77746);
       /* harmony import */
 
 
       var _angular_material_button__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
       /*! @angular/material/button */
-      2895);
+      51095);
       /* harmony import */
 
 
       var _angular_material_icon__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
       /*! @angular/material/icon */
-      49356);
+      76627);
       /* harmony import */
 
 
       var _angular_material_menu__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
       /*! @angular/material/menu */
-      23021);
+      33935);
       /* harmony import */
 
 
       var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
       /*! @angular/material/form-field */
-      46833);
+      98295);
       /* harmony import */
 
 
       var _angular_material_input__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
       /*! @angular/material/input */
-      64372);
+      83166);
       /* harmony import */
 
 
       var _angular_material_core__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
       /*! @angular/material/core */
-      64677);
+      5015);
 
       function ChatComponent_mat_list_item_12_Template(rf, ctx) {
         if (rf & 1) {
@@ -15277,13 +15081,13 @@
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
       /* harmony import */
 
 
       var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! @angular/material/dialog */
-      20592);
+      22238);
       /* harmony import */
 
 
@@ -15343,25 +15147,25 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
       var _angular_material_button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/material/button */
-      2895);
+      51095);
       /* harmony import */
 
 
       var _angular_material_card__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
       /*! @angular/material/card */
-      7639);
+      93738);
       /* harmony import */
 
 
       var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
       /*! @angular/material/toolbar */
-      73121);
+      12522);
       /* harmony import */
 
 
@@ -15379,7 +15183,7 @@
 
       var _angular_material_icon__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
       /*! @angular/material/icon */
-      49356);
+      76627);
       /* harmony import */
 
 
@@ -15580,7 +15384,7 @@
 
       var _FullcalendarComponent = /*#__PURE__*/function () {
         function _FullcalendarComponent(dialog, doc) {
-          var _this26 = this;
+          var _this25 = this;
 
           _classCallCheck(this, _FullcalendarComponent);
 
@@ -15608,17 +15412,17 @@
             onClick: function onClick(_ref66) {
               var event = _ref66.event;
 
-              _this26.handleEvent('Edited', event);
+              _this25.handleEvent('Edited', event);
             }
           }, {
             label: '<i class="ti-close act"></i>',
             onClick: function onClick(_ref67) {
               var event = _ref67.event;
-              _this26.events = _this26.events.filter(function (iEvent) {
+              _this25.events = _this25.events.filter(function (iEvent) {
                 return iEvent !== event;
               });
 
-              _this26.handleEvent('Deleted', event);
+              _this25.handleEvent('Deleted', event);
             }
           }];
           this.refresh = new rxjs__WEBPACK_IMPORTED_MODULE_4__.Subject();
@@ -15682,7 +15486,7 @@
         }, {
           key: "handleEvent",
           value: function handleEvent(action, event) {
-            var _this27 = this;
+            var _this26 = this;
 
             this.config.data = {
               event: event,
@@ -15690,8 +15494,8 @@
             };
             this.dialogRef = this.dialog.open(_CalendarDialogComponent, this.config);
             this.dialogRef.afterClosed().subscribe(function (result) {
-              _this27.lastCloseResult = result;
-              _this27.dialogRef = null;
+              _this26.lastCloseResult = result;
+              _this26.dialogRef = null;
             });
           }
         }, {
@@ -15992,7 +15796,7 @@
 
       var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/material/dialog */
-      20592);
+      22238);
       /* harmony import */
 
 
@@ -16004,7 +15808,7 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
@@ -16016,49 +15820,49 @@
 
       var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! @angular/material/form-field */
-      46833);
+      98295);
       /* harmony import */
 
 
       var _angular_material_input__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
       /*! @angular/material/input */
-      64372);
+      83166);
       /* harmony import */
 
 
       var ngx_quill__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
       /*! ngx-quill */
-      61282);
+      36858);
       /* harmony import */
 
 
       var _angular_material_button__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
       /*! @angular/material/button */
-      2895);
+      51095);
       /* harmony import */
 
 
       var _angular_material_card__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
       /*! @angular/material/card */
-      7639);
+      93738);
       /* harmony import */
 
 
       var _angular_material_icon__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
       /*! @angular/material/icon */
-      49356);
+      76627);
       /* harmony import */
 
 
       var _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
       /*! @angular/material/sidenav */
-      4008);
+      94935);
       /* harmony import */
 
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
       /* harmony import */
 
 
@@ -16070,13 +15874,13 @@
 
       var ngx_perfect_scrollbar__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
       /*! ngx-perfect-scrollbar */
-      5052);
+      99904);
       /* harmony import */
 
 
       var _angular_material_expansion__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
       /*! @angular/material/expansion */
-      23900);
+      1562);
 
       var _c0 = function _c0() {
         return {
@@ -16450,11 +16254,11 @@
         }, {
           key: "getMessages",
           value: function getMessages() {
-            var _this28 = this;
+            var _this27 = this;
 
             this.mailService.getMessages().then(function (messages) {
-              _this28.messages = messages;
-              _this28.selectedMessage = _this28.messages[1];
+              _this27.messages = messages;
+              _this27.selectedMessage = _this27.messages[1];
             });
           }
         }, {
@@ -16629,7 +16433,7 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
 
       var _MailService = /*#__PURE__*/function () {
         function _MailService() {
@@ -16849,19 +16653,19 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
       var _angular_material_card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! @angular/material/card */
-      7639);
+      93738);
       /* harmony import */
 
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
       /* harmony import */
 
 

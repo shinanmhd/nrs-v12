@@ -29,7 +29,7 @@
 
   function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
-  (self["webpackChunkmaterial"] = self["webpackChunkmaterial"] || []).push([["src_app_tables_tables_module_ts"], {
+  (self["webpackChunkmaterialpro"] = self["webpackChunkmaterialpro"] || []).push([["src_app_tables_tables_module_ts"], {
     /***/
     99199:
     /*!**************************************************************************!*\
@@ -172,7 +172,7 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
@@ -220,19 +220,19 @@
 
       var _angular_common_http__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
       /*! @angular/common/http */
-      58497);
+      91841);
       /* harmony import */
 
 
       var _angular_forms__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
       /*! @angular/forms */
-      24751);
+      3679);
       /* harmony import */
 
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
       /**
        * @license ng2-completer
        * MIT license
@@ -3004,10 +3004,10 @@
     },
 
     /***/
-    64965:
-    /*!******************************************************************!*\
-      !*** ./node_modules/ng2-smart-table/fesm2015/ng2-smart-table.js ***!
-      \******************************************************************/
+    3315:
+    /*!*******************************************************************************!*\
+      !*** ./node_modules/ng2-smart-table/__ivy_ngcc__/fesm2015/ng2-smart-table.js ***!
+      \*******************************************************************************/
 
     /***/
     function _(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
@@ -3425,19 +3425,19 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
       /* harmony import */
 
 
       var _angular_forms__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
       /*! @angular/forms */
-      24751);
+      3679);
       /* harmony import */
 
 
@@ -3495,7 +3495,7 @@
 
       var _angular_common_http__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
       /*! @angular/common/http */
-      58497);
+      91841);
       /**
        * Extending object that entered in first argument.
        *
@@ -11553,13 +11553,13 @@
 
       var _angular_material_table__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! @angular/material/table */
-      589);
+      32091);
       /* harmony import */
 
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
@@ -11571,7 +11571,7 @@
 
       var _angular_material_card__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! @angular/material/card */
-      7639);
+      93738);
 
       function BasicTableComponent_mat_header_cell_10_Template(rf, ctx) {
         if (rf & 1) {
@@ -11935,13 +11935,13 @@
 
       var _angular_material_table__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! @angular/material/table */
-      589);
+      32091);
       /* harmony import */
 
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
@@ -11953,19 +11953,19 @@
 
       var _angular_material_card__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! @angular/material/card */
-      7639);
+      93738);
       /* harmony import */
 
 
       var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! @angular/material/form-field */
-      46833);
+      98295);
       /* harmony import */
 
 
       var _angular_material_input__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
       /*! @angular/material/input */
-      64372);
+      83166);
 
       function FilterableComponent_mat_header_cell_13_Template(rf, ctx) {
         if (rf & 1) {
@@ -12360,25 +12360,25 @@
 
       var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/material/paginator */
-      23487);
+      99692);
       /* harmony import */
 
 
       var _angular_material_sort__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! @angular/material/sort */
-      60857);
+      11494);
       /* harmony import */
 
 
       var _angular_material_table__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! @angular/material/table */
-      589);
+      32091);
       /* harmony import */
 
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
@@ -12390,19 +12390,19 @@
 
       var _angular_material_card__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
       /*! @angular/material/card */
-      7639);
+      93738);
       /* harmony import */
 
 
       var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
       /*! @angular/material/form-field */
-      46833);
+      98295);
       /* harmony import */
 
 
       var _angular_material_input__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
       /*! @angular/material/input */
-      64372);
+      83166);
 
       function MixComponent_mat_header_cell_12_Template(rf, ctx) {
         if (rf & 1) {
@@ -12757,19 +12757,19 @@
 
       var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/material/paginator */
-      23487);
+      99692);
       /* harmony import */
 
 
       var _angular_material_table__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! @angular/material/table */
-      589);
+      32091);
       /* harmony import */
 
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
@@ -12781,7 +12781,7 @@
 
       var _angular_material_card__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! @angular/material/card */
-      7639);
+      93738);
 
       function PaginationComponent_mat_header_cell_10_Template(rf, ctx) {
         if (rf & 1) {
@@ -13349,13 +13349,13 @@
 
       var ng2_smart_table__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! ng2-smart-table */
-      64965);
+      3315);
       /* harmony import */
 
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
@@ -13367,7 +13367,7 @@
 
       var _angular_material_card__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! @angular/material/card */
-      7639);
+      93738);
 
       var _SmarttableComponent = function _SmarttableComponent() {
         _classCallCheck(this, _SmarttableComponent);
@@ -13484,19 +13484,19 @@
 
       var _angular_material_sort__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/material/sort */
-      60857);
+      11494);
       /* harmony import */
 
 
       var _angular_material_table__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! @angular/material/table */
-      589);
+      32091);
       /* harmony import */
 
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
@@ -13508,7 +13508,7 @@
 
       var _angular_material_card__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! @angular/material/card */
-      7639);
+      93738);
 
       function SortableComponent_mat_header_cell_10_Template(rf, ctx) {
         if (rf & 1) {
@@ -13899,13 +13899,13 @@
 
       var _angular_router__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
       /*! @angular/router */
-      3984);
+      39895);
       /* harmony import */
 
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
       /* harmony import */
 
 
@@ -13917,7 +13917,7 @@
 
       var _angular_forms__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
       /*! @angular/forms */
-      24751);
+      3679);
       /* harmony import */
 
 
@@ -13935,7 +13935,7 @@
 
       var ng2_smart_table__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
       /*! ng2-smart-table */
-      64965);
+      3315);
       /* harmony import */
 
 
@@ -13977,7 +13977,7 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
 
       var _TablesModule = function _TablesModule() {
         _classCallCheck(this, _TablesModule);

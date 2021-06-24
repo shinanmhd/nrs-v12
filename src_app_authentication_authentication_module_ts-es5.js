@@ -5,7 +5,7 @@
 
   function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-  (self["webpackChunkmaterial"] = self["webpackChunkmaterial"] || []).push([["src_app_authentication_authentication_module_ts"], {
+  (self["webpackChunkmaterialpro"] = self["webpackChunkmaterialpro"] || []).push([["src_app_authentication_authentication_module_ts"], {
     /***/
     41082:
     /*!*********************************************************!*\
@@ -36,49 +36,49 @@
 
       var _angular_router__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
       /*! @angular/router */
-      3984);
+      39895);
       /* harmony import */
 
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
       /* harmony import */
 
 
       var _angular_material_button__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
       /*! @angular/material/button */
-      2895);
+      51095);
       /* harmony import */
 
 
       var _angular_material_card__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
       /*! @angular/material/card */
-      7639);
+      93738);
       /* harmony import */
 
 
       var _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
       /*! @angular/material/checkbox */
-      89713);
+      7539);
       /* harmony import */
 
 
       var _angular_material_icon__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
       /*! @angular/material/icon */
-      49356);
+      76627);
       /* harmony import */
 
 
       var _angular_material_input__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
       /*! @angular/material/input */
-      64372);
+      83166);
       /* harmony import */
 
 
       var _angular_forms__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
       /*! @angular/forms */
-      24751);
+      3679);
       /* harmony import */
 
 
@@ -132,7 +132,7 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
 
       var _AuthenticationModule = function _AuthenticationModule() {
         _classCallCheck(this, _AuthenticationModule);
@@ -280,19 +280,19 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
       /* harmony import */
 
 
       var _angular_material_button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/material/button */
-      2895);
+      51095);
 
       var _ErrorComponent = /*#__PURE__*/function () {
         function _ErrorComponent(location) {
@@ -399,31 +399,31 @@
 
       var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/forms */
-      24751);
+      3679);
       /* harmony import */
 
 
       var ng2_validation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
       /*! ng2-validation */
-      46035);
+      51665);
       /* harmony import */
 
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
       var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! @angular/router */
-      3984);
+      39895);
       /* harmony import */
 
 
       var _angular_material_card__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! @angular/material/card */
-      7639);
+      93738);
       /* harmony import */
 
 
@@ -435,25 +435,25 @@
 
       var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
       /*! @angular/material/form-field */
-      46833);
+      98295);
       /* harmony import */
 
 
       var _angular_material_input__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
       /*! @angular/material/input */
-      64372);
+      83166);
       /* harmony import */
 
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
       /* harmony import */
 
 
       var _angular_material_button__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
       /*! @angular/material/button */
-      2895);
+      51095);
 
       function ForgotComponent_small_15_Template(rf, ctx) {
         if (rf & 1) {
@@ -637,25 +637,25 @@
 
       var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! @angular/forms */
-      24751);
+      3679);
       /* harmony import */
 
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
       var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/router */
-      3984);
+      39895);
       /* harmony import */
 
 
       var _angular_material_card__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! @angular/material/card */
-      7639);
+      93738);
       /* harmony import */
 
 
@@ -667,25 +667,25 @@
 
       var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
       /*! @angular/material/form-field */
-      46833);
+      98295);
       /* harmony import */
 
 
       var _angular_material_input__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
       /*! @angular/material/input */
-      64372);
+      83166);
       /* harmony import */
 
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
       /* harmony import */
 
 
       var _angular_material_button__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
       /*! @angular/material/button */
-      2895);
+      51095);
 
       function LockscreenComponent_small_13_Template(rf, ctx) {
         if (rf & 1) {
@@ -851,7 +851,7 @@
 
       var _angular_forms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
       /*! @angular/forms */
-      24751);
+      3679);
       /* harmony import */
 
 
@@ -881,7 +881,7 @@
 
       var _ngrx_effects__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
       /*! @ngrx/effects */
-      53863);
+      85322);
       /* harmony import */
 
 
@@ -893,25 +893,25 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
       var _angular_router__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
       /*! @angular/router */
-      3984);
+      39895);
       /* harmony import */
 
 
       var _ngrx_store__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
       /*! @ngrx/store */
-      62800);
+      86710);
       /* harmony import */
 
 
       var _angular_material_card__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
       /*! @angular/material/card */
-      7639);
+      93738);
       /* harmony import */
 
 
@@ -923,25 +923,25 @@
 
       var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
       /*! @angular/material/form-field */
-      46833);
+      98295);
       /* harmony import */
 
 
       var _angular_material_input__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
       /*! @angular/material/input */
-      64372);
+      83166);
       /* harmony import */
 
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
       /* harmony import */
 
 
       var _angular_material_button__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
       /*! @angular/material/button */
-      2895);
+      51095);
 
       function LoginComponent_small_13_Template(rf, ctx) {
         if (rf & 1) {
@@ -1192,31 +1192,31 @@
 
       var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/forms */
-      24751);
+      3679);
       /* harmony import */
 
 
       var ng2_validation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
       /*! ng2-validation */
-      46035);
+      51665);
       /* harmony import */
 
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
       var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! @angular/router */
-      3984);
+      39895);
       /* harmony import */
 
 
       var _angular_material_card__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! @angular/material/card */
-      7639);
+      93738);
       /* harmony import */
 
 
@@ -1228,31 +1228,31 @@
 
       var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
       /*! @angular/material/form-field */
-      46833);
+      98295);
       /* harmony import */
 
 
       var _angular_material_input__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
       /*! @angular/material/input */
-      64372);
+      83166);
       /* harmony import */
 
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
       /* harmony import */
 
 
       var _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
       /*! @angular/material/checkbox */
-      89713);
+      7539);
       /* harmony import */
 
 
       var _angular_material_button__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
       /*! @angular/material/button */
-      2895);
+      51095);
 
       function RegisterComponent_small_13_Template(rf, ctx) {
         if (rf & 1) {
@@ -1553,25 +1553,25 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
       var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! @angular/router */
-      3984);
+      39895);
       /* harmony import */
 
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
       /* harmony import */
 
 
       var _angular_material_button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! @angular/material/button */
-      2895);
+      51095);
 
       var _UnauthorizedComponent = /*#__PURE__*/function () {
         function _UnauthorizedComponent(router, location) {

@@ -5,7 +5,7 @@
 
   function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
-  (self["webpackChunkmaterial"] = self["webpackChunkmaterial"] || []).push([["src_app_admin_admin_module_ts"], {
+  (self["webpackChunkmaterialpro"] = self["webpackChunkmaterialpro"] || []).push([["src_app_admin_admin_module_ts"], {
     /***/
     28678:
     /*!************************************************************************************!*\
@@ -36,13 +36,13 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
       var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! @angular/material/dialog */
-      20592);
+      22238);
       /* harmony import */
 
 
@@ -66,19 +66,19 @@
 
       var _ngrx_store__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
       /*! @ngrx/store */
-      62800);
+      86710);
       /* harmony import */
 
 
       var _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
       /*! @ngrx/effects */
-      53863);
+      85322);
       /* harmony import */
 
 
       var _angular_forms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
       /*! @angular/forms */
-      24751);
+      3679);
       /* harmony import */
 
 
@@ -90,19 +90,19 @@
 
       var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
       /*! @angular/material/form-field */
-      46833);
+      98295);
       /* harmony import */
 
 
       var _angular_material_input__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
       /*! @angular/material/input */
-      64372);
+      83166);
       /* harmony import */
 
 
       var _angular_material_button__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
       /*! @angular/material/button */
-      2895);
+      51095);
 
       var _AddNewsBreakerDialogComponent = /*#__PURE__*/function () {
         function _AddNewsBreakerDialogComponent(dialogRef, data, store, userService, updates$) {
@@ -263,13 +263,13 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
       var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! @angular/material/dialog */
-      20592);
+      22238);
       /* harmony import */
 
 
@@ -293,19 +293,19 @@
 
       var _ngrx_store__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
       /*! @ngrx/store */
-      62800);
+      86710);
       /* harmony import */
 
 
       var _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
       /*! @ngrx/effects */
-      53863);
+      85322);
       /* harmony import */
 
 
       var _angular_forms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
       /*! @angular/forms */
-      24751);
+      3679);
       /* harmony import */
 
 
@@ -317,19 +317,19 @@
 
       var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
       /*! @angular/material/form-field */
-      46833);
+      98295);
       /* harmony import */
 
 
       var _angular_material_input__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
       /*! @angular/material/input */
-      64372);
+      83166);
       /* harmony import */
 
 
       var _angular_material_button__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
       /*! @angular/material/button */
-      2895);
+      51095);
 
       var _AddNewsListDialogComponent = /*#__PURE__*/function () {
         function _AddNewsListDialogComponent(dialogRef, data, store, userService, updates$) {
@@ -491,13 +491,13 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
       var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! @angular/material/dialog */
-      20592);
+      22238);
       /* harmony import */
 
 
@@ -521,19 +521,19 @@
 
       var _ngrx_store__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
       /*! @ngrx/store */
-      62800);
+      86710);
       /* harmony import */
 
 
       var _ngrx_effects__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
       /*! @ngrx/effects */
-      53863);
+      85322);
       /* harmony import */
 
 
       var _angular_forms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
       /*! @angular/forms */
-      24751);
+      3679);
       /* harmony import */
 
 
@@ -545,25 +545,25 @@
 
       var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
       /*! @angular/material/form-field */
-      46833);
+      98295);
       /* harmony import */
 
 
       var _angular_material_input__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
       /*! @angular/material/input */
-      64372);
+      83166);
       /* harmony import */
 
 
       var _angular_material_button__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
       /*! @angular/material/button */
-      2895);
+      51095);
       /* harmony import */
 
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
 
       var _AddUserDialogComponent = /*#__PURE__*/function () {
         function _AddUserDialogComponent(dialogRef, data, store, userService, updates$) {
@@ -804,13 +804,13 @@
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
       /* harmony import */
 
 
       var _angular_router__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
       /*! @angular/router */
-      3984);
+      39895);
       /* harmony import */
 
 
@@ -822,7 +822,7 @@
 
       var _angular_forms__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
       /*! @angular/forms */
-      24751);
+      3679);
       /* harmony import */
 
 
@@ -846,7 +846,7 @@
 
       var ngx_perfect_scrollbar__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
       /*! ngx-perfect-scrollbar */
-      5052);
+      99904);
       /* harmony import */
 
 
@@ -858,19 +858,19 @@
 
       var _swimlane_ngx_datatable__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
       /*! @swimlane/ngx-datatable */
-      84051);
+      38550);
       /* harmony import */
 
 
       var _ngrx_store__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
       /*! @ngrx/store */
-      62800);
+      86710);
       /* harmony import */
 
 
       var _ngrx_effects__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
       /*! @ngrx/effects */
-      53863);
+      85322);
       /* harmony import */
 
 
@@ -936,7 +936,7 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /*import { DragulaModule } from 'ng2-dragula/ng2-dragula';*/
 
 
@@ -1076,13 +1076,13 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
       var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
       /*! @angular/material/dialog */
-      20592);
+      22238);
       /* harmony import */
 
 
@@ -1106,7 +1106,7 @@
 
       var _ngrx_effects__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
       /*! @ngrx/effects */
-      53863);
+      85322);
       /* harmony import */
 
 
@@ -1124,7 +1124,7 @@
 
       var _ngrx_store__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
       /*! @ngrx/store */
-      62800);
+      86710);
       /* harmony import */
 
 
@@ -1136,25 +1136,25 @@
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
       /* harmony import */
 
 
       var _angular_material_button__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
       /*! @angular/material/button */
-      2895);
+      51095);
       /* harmony import */
 
 
       var _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
       /*! @angular/material/tooltip */
-      64855);
+      11436);
       /* harmony import */
 
 
       var _angular_material_icon__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
       /*! @angular/material/icon */
-      49356);
+      76627);
 
       function AssignRoleDialogComponent_div_5_div_12_Template(rf, ctx) {
         if (rf & 1) {
@@ -1445,7 +1445,7 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
 
       var _DashboardComponent = /*#__PURE__*/function () {
         function _DashboardComponent() {
@@ -1686,19 +1686,19 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
       var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
       /*! @angular/material/dialog */
-      20592);
+      22238);
       /* harmony import */
 
 
       var _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
       /*! @angular/material/snack-bar */
-      3069);
+      77001);
       /* harmony import */
 
 
@@ -1710,31 +1710,31 @@
 
       var _angular_material_card__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
       /*! @angular/material/card */
-      7639);
+      93738);
       /* harmony import */
 
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
       /* harmony import */
 
 
       var _angular_material_button__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
       /*! @angular/material/button */
-      2895);
+      51095);
       /* harmony import */
 
 
       var _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
       /*! @angular/material/tooltip */
-      64855);
+      11436);
       /* harmony import */
 
 
       var _angular_material_icon__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
       /*! @angular/material/icon */
-      49356);
+      76627);
 
       function NewsBreakersComponent_div_14_Template(rf, ctx) {
         if (rf & 1) {
@@ -2008,19 +2008,19 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
       var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
       /*! @angular/material/dialog */
-      20592);
+      22238);
       /* harmony import */
 
 
       var _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
       /*! @angular/material/snack-bar */
-      3069);
+      77001);
       /* harmony import */
 
 
@@ -2032,49 +2032,49 @@
 
       var _angular_material_card__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
       /*! @angular/material/card */
-      7639);
+      93738);
       /* harmony import */
 
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
       /* harmony import */
 
 
       var _angular_material_button__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
       /*! @angular/material/button */
-      2895);
+      51095);
       /* harmony import */
 
 
       var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
       /*! @angular/material/form-field */
-      46833);
+      98295);
       /* harmony import */
 
 
       var _angular_material_input__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
       /*! @angular/material/input */
-      64372);
+      83166);
       /* harmony import */
 
 
       var _angular_forms__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
       /*! @angular/forms */
-      24751);
+      3679);
       /* harmony import */
 
 
       var _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
       /*! @angular/material/tooltip */
-      64855);
+      11436);
       /* harmony import */
 
 
       var _angular_material_icon__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
       /*! @angular/material/icon */
-      49356);
+      76627);
 
       function NewsListComponent_div_16_button_7_Template(rf, ctx) {
         if (rf & 1) {
@@ -2505,13 +2505,13 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
       var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! @angular/common/http */
-      58497);
+      91841);
 
       var _NewsService = /*#__PURE__*/function () {
         function _NewsService(http) {
@@ -2638,13 +2638,13 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
       var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/common/http */
-      58497);
+      91841);
 
       var _UserService = /*#__PURE__*/function () {
         function _UserService(http) {
@@ -3220,7 +3220,7 @@
 
       var _ngrx_effects__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @ngrx/effects */
-      53863);
+      85322);
       /* harmony import */
 
 
@@ -3238,7 +3238,7 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
 
       var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
         var c = arguments.length,
@@ -3378,7 +3378,7 @@
 
       var _ngrx_store__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! @ngrx/store */
-      62800);
+      86710);
       /* harmony import */
 
 
@@ -3551,7 +3551,7 @@
 
       var _ngrx_effects__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
       /*! @ngrx/effects */
-      53863);
+      85322);
       /* harmony import */
 
 
@@ -3599,25 +3599,25 @@
 
       var _angular_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
       /*! @angular/core */
-      74788);
+      37716);
       /* harmony import */
 
 
       var _ngrx_store__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
       /*! @ngrx/store */
-      62800);
+      86710);
       /* harmony import */
 
 
       var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
       /*! @angular/material/dialog */
-      20592);
+      22238);
       /* harmony import */
 
 
       var _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
       /*! @angular/material/snack-bar */
-      3069);
+      77001);
       /* harmony import */
 
 
@@ -3629,19 +3629,19 @@
 
       var _angular_material_card__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
       /*! @angular/material/card */
-      7639);
+      93738);
       /* harmony import */
 
 
       var _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
       /*! @angular/material/sidenav */
-      4008);
+      94935);
       /* harmony import */
 
 
       var _angular_common__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
       /*! @angular/common */
-      12057);
+      38583);
       /* harmony import */
 
 
@@ -3653,67 +3653,67 @@
 
       var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
       /*! @angular/material/toolbar */
-      73121);
+      12522);
       /* harmony import */
 
 
       var _angular_material_button__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
       /*! @angular/material/button */
-      2895);
+      51095);
       /* harmony import */
 
 
       var _angular_material_icon__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
       /*! @angular/material/icon */
-      49356);
+      76627);
       /* harmony import */
 
 
       var _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
       /*! @angular/material/tooltip */
-      64855);
+      11436);
       /* harmony import */
 
 
       var _angular_material_list__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
       /*! @angular/material/list */
-      45363);
+      77746);
       /* harmony import */
 
 
       var _angular_material_core__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
       /*! @angular/material/core */
-      64677);
+      5015);
       /* harmony import */
 
 
       var _angular_material_tabs__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
       /*! @angular/material/tabs */
-      40859);
+      65939);
       /* harmony import */
 
 
       var _angular_forms__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
       /*! @angular/forms */
-      24751);
+      3679);
       /* harmony import */
 
 
       var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(
       /*! @angular/material/form-field */
-      46833);
+      98295);
       /* harmony import */
 
 
       var _angular_material_input__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(
       /*! @angular/material/input */
-      64372);
+      83166);
       /* harmony import */
 
 
       var _angular_material_chips__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(
       /*! @angular/material/chips */
-      23202);
+      58341);
 
       function UserComponent_mat_nav_list_16_mat_list_item_1_mat_icon_1_Template(rf, ctx) {
         if (rf & 1) {
